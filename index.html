@@ -19,12 +19,12 @@
           <a class="navbar-brand" href="#">Startseite</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class=""><a href="#">Transparenz</a></li>
+          <li class=""><a href="#" onclick="load_html('transparenz.html')">Transparenz</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Info
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Dreijahresplan</a></li>
+              <li><a href="#" onclick="load_html('dreij.html')">Dreijahresplan</a></li>
               <li><a href="#">Schulprogramm</a></li>
               <li><a href="#">Stundeneinteilung</a></li>
               <li><a href="#">Klassenräte</a></li>
@@ -86,7 +86,7 @@
       </div>
     </nav>
   </header>
-  <div id="container">
+  <div id="cont">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -159,6 +159,13 @@
       </div>
     </div>
   </footer>
+
+  <script>
+      function load_html(param) {
+          console.log('teis '+param);
+          $('#cont').load(param);
+      }
+  </script>
 </body>
 
 </html>
