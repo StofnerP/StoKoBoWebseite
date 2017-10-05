@@ -58,3 +58,13 @@ footer a:focus {
     text-decoration: none;
     transition-duration: .5s;
 }
+
+.transparenteVerwaltungInhaltsverzeichnis {
+    border: 1px solid #0088cc;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
