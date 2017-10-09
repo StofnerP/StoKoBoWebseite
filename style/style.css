@@ -1,0 +1,88 @@
+.navbar-inverse {
+    background-color:#0088cc;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: #0088cc;
+    background-color: white;
+    
+}  
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    border-radius: 35px;
+    background-color: white;
+    color: #0088cc;
+    transition-duration: 0.5s;
+}    
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover
+{ 
+    background-color: #005e8d;
+    transition-duration: 0.5s;
+    border-radius: 35px;
+}
+.carousel-inner img {
+    margin: auto;
+    width: 100%;
+}
+footer {
+    background-color: #B7BABC;
+}
+footer .row{
+    text-align: center;
+}
+.zeilen2 {
+    margin-top: 30px; 
+}
+.zeilen3 {
+    margin-top: 20px; 
+}
+.copyright {
+    margin-top: 30px; 
+    margin-bottom: 20px;
+}
+footer a {
+    color: #0088cc;
+}
+footer a:hover,
+footer a:focus {
+    color: black;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.transparenteVerwaltungInhaltsverzeichnis {
+    border: 1px solid #0088cc;
+    border-radius: 5px;
+    padding-top: 12px;
+}
+.transparenteVerwaltungInhaltsverzeichnis a {
+    color: #0088cc;
+}
+.transparenteVerwaltungInhaltsverzeichnis a:hover,
+.transparenteVerwaltungInhaltsverzeichnis a:focus {
+    color: black;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+.transparenteVerwaltungContent a {
+    color: #0088cc;
+}
+.transparenteVerwaltungContent a:hover,
+.transparenteVerwaltungContent a:focus{
+    color: black;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
